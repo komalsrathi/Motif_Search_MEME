@@ -1,0 +1,5 @@
+PROJECTNAME=>/NGSshare/fimo_whole_genome
+DATADIR=>/NGSshare/
+MOTIFLIST=>/NGSshare/motif_db/motiflist_TRANSFAC.txt
+THREADS=>20
+GENOME=>hg19
