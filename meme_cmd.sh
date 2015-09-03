@@ -1,7 +1,13 @@
-# convert transfac matrix.dat to matrix.meme file
-transfac2meme matrix.dat matrix.meme
+#!/usr/bin
+echo "Input bedfile:"
+read bedfile
 
-# your bedfile is in $bedfile
+echo $bedfile
+
+# convert transfac matrix.dat to matrix.meme file
+# transfac2meme matrix.dat matrix.meme
+
+# your input bedfile is in $bedfile
 
 # convert your bed file to fasta
 # bedtools getfasta & repeatmask
